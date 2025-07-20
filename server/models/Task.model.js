@@ -8,4 +8,4 @@ const taskSchema=mongoose.connect({
   team: { type: mongoose.Schema.Types.ObjectId, ref: "Team" },
 })
 
-export default Task=mongoose.model('Tasks',taskSchema)
+export default mongoose.model('Tasks',taskSchema)

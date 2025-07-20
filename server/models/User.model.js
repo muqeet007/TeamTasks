@@ -7,4 +7,4 @@ const userSchema=mongoose.Schema({
   team: { type: mongoose.Schema.Types.ObjectId, ref: "Team" },
 })
 
-export default User=mongoose.connect('Users',userSchema)
+export default mongoose.connect('Users',userSchema)

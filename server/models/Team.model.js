@@ -8,4 +8,4 @@ const TeamSchema=mongoose.Schema({
   tasks: [{ type: mongoose.Schema.Types.ObjectId, ref: "Task" }],
 })
 
-export default Team=mongoose.model('Teams',TeamSchema)
+export default mongoose.model('Teams',TeamSchema)
