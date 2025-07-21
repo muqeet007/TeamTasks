@@ -1,5 +1,6 @@
-import { app } from "./app.js";
 import {PORT,connectDatabase} from './config/config.js'
+import { app } from "./app.js";
+
 
 
 const startServer=async()=>

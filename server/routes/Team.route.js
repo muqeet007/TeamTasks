@@ -22,5 +22,4 @@ router.put('/:id', validateUpdateTeam ,updateTeam); // PUT /api/teams/:id
 router.delete('/:id', deleteTeam); // DELETE /api/teams/:id
 
 
-
 export default router
